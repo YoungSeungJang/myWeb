@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 30px 0;
+}
+
+header > div:first-child {
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+
+header > div:first-child > div {
+    margin-left: 30px;
+}
+
+header > div:first-child > div:first-child {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+
+header > div:last-child {
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+}
+
+header > div:last-child > div{
+    margin-right: 30px;
+}
+
+#boxOffice {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#login {
+    background-color: thistle;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccccff;
+    height: 40vh;
+}
+
+section > div:first-child {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+section > div:last-child {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+section > div:last-child > div {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+section > div > input {
+    font-size: 3rem;
+}
+
+main {
+    background-color: #C3B1E1;
+    /* height: 50vh; */
+}
+
+table {
+    background-color: #CBC3E3;
+    color: #770737;
+    width:50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+td {
+    border: 3px solid 	#E6E6FA
+}
+
+tr {
+    height: 50px;
+}
+
+footer {
+    width: 100%;
+    display: fex;
+    background-color: antiquewhite;
+}
+
+footer > div > img {
+    width: 310px;
+    height: 500px;
+}
