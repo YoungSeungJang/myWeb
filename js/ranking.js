@@ -10,7 +10,7 @@ let $date = document.querySelector('input').value.trim();
     cache: false,
     success: function (data, status) {
       if (status == 'success') {
-		console.log(data.boxOfficeResult.dailyBoxOfficeList);
+		// console.log(data.boxOfficeResult.dailyBoxOfficeList); 데이터 확인
 		parseJSON(data);
 	  }
     },
@@ -26,7 +26,7 @@ $('button').click(function(){
     cache: false,
     success: function (data, status) {
       if (status == 'success') {
-		console.log(data.boxOfficeResult.dailyBoxOfficeList);
+		// console.log(data.boxOfficeResult.dailyBoxOfficeList); 데이터 확인
 		parseJSON(data);
 	  }
     },
